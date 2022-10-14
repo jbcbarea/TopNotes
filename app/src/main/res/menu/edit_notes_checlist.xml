@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <item android:id="@+id/settings"
+        android:orderInCategory="100"
+        android:title="Settings"
+        app:showAsAction="never"
+        tools:ignore="MenuTitle"></item>
+
+    <item
+        android:id="@+id/toolbarsettings"
+        android:orderInCategory="101"
+        android:title="Delete All Audio Files"
+        tools:ignore="MenuTitle"></item>
+    <item
+        android:id="@+id/delete"
+        android:orderInCategory="101"
+        android:title="Delete Note"
+        tools:ignore="MenuTitle"></item>
+
+
+    <item
+        android:id="@+id/toolbarmic"
+        android:icon="@drawable/toolbar_micoff"
+        android:orderInCategory="100"
+        android:title="Audio Note"
+        app:showAsAction="ifRoom"></item>
+
+
+
+
+</menu>

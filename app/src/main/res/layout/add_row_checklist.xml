@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:paddingTop="2dp"
+    android:paddingBottom="2dp">
+
+    <EditText
+        android:id="@+id/edit_cricketer_name"
+        android:layout_width="229dp"
+        android:layout_height="70dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/regular"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:hint="To do List..."
+        android:textSize="15dp"></EditText>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="50dp"
+            android:layout_height="70dp"></CheckBox>
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/image_remove"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/close"></ImageView>
+
+</LinearLayout>

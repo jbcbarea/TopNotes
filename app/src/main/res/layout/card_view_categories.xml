@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view_Categories"
+    android:layout_width="100dp"
+    android:layout_height="130dp"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="8dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <ImageView
+            android:id="@+id/featured_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/calendar_date_event_schedule_icon_127220" />
+    <TextView
+        android:id="@+id/featured_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineHeight="20dp"
+        android:textStyle="bold"
+        android:text="Recent Date"
+        android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/featured_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineHeight="10dp"
+            android:text="Selecciona por fecha más reciente"
+            android:textSize="8sp" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

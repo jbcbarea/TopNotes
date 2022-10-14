@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="200dp"
+        android:orientation="vertical"
+        android:background="@drawable/fancy"
+
+        tools:context=".MainActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/categoriesEditText"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:fontFamily="@font/regular"
+                android:hint="Categories..."
+                android:layout_marginTop="100dp"></EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/titleEditText"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:fontFamily="@font/regular"
+                    android:hint="Title..."
+                    android:layout_marginTop="15dp"></EditText>
+            </LinearLayout>
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            
+
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/contentEditText"
+            android:layout_width="320dp"
+            android:layout_height="350dp"
+            android:layout_marginLeft="50dp"
+            android:ems="10"
+            android:focusable="true"
+            android:gravity="start|top"
+            android:fontFamily="@font/regular"
+            android:hint="Start writtening your notes..."
+            android:inputType="textMultiLine"
+            android:maxLength="2000"
+            android:scrollbars="none"
+            android:textSize="15sp"></EditText>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/leftbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/left"
+                android:layout_marginLeft="40dp"></ImageView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/center"
+                android:id="@+id/centerbtn"
+                android:layout_marginLeft="10dp"></ImageView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/right"
+                android:id="@+id/rightbtn"
+                android:layout_marginLeft="10dp"></ImageView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bold"
+                android:id="@+id/boldbtn"
+                android:layout_marginLeft="10dp"></ImageView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/italic"
+                android:id="@+id/italicbtn"
+                android:layout_marginLeft="10dp"></ImageView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/underlinebtn"
+                android:src="@drawable/underline"
+                android:layout_marginLeft="10dp"></ImageView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/noformatbtn"
+                android:src="@drawable/noedit"
+                android:layout_marginLeft="10dp"></ImageView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:id="@+id/recordingNotes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/white"
+                    android:layout_marginLeft="165dp"
+                    android:src="@drawable/voicesearch_37022"></ImageView>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button_submit_list"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="25dp"
+                android:text="Submit List"
+                android:layout_marginLeft="120dp"
+                android:fontFamily="@font/regular"
+                android:layout_marginRight="15dp"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                ></Button>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
